@@ -8,6 +8,7 @@ buttons.forEach((button) => {
       case 'white':
       case 'blue':
       case 'yellow':
+      case 'red':
         body.style.backgroundColor = e.target.id;
         break;
       default:
